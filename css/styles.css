@@ -5,6 +5,7 @@ body {
 }
 .container {
     margin-top: 250px;
+    -webkit-animation: bounceInUp 1s;
 }
 
 .btnPortfolio {
