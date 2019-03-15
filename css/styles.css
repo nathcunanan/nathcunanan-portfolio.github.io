@@ -1,0 +1,54 @@
+body {
+    background-image: url('../src/one_piece.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+.container {
+    margin-top: 250px;
+}
+
+.btnPortfolio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    transition: all 1s;
+    background-color: #2f3f73;
+    color: #080d3b;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.textContainer {
+    margin: 0 auto;
+    margin-top: 200px;
+    color: #ffffff; 
+    border-bottom: 1px solid #2b4a6f;
+    border: none;
+    background: rbg(0,0,0,0);
+    background: rgb(0,0,0,5);
+    opacity: 0.5;
+}
+
+.button1:hover {
+    transform: scale(1.1);
+}
+
+.myText {
+    opacity: 1;
+    border: none;
+    font-size: 3rem;
+    color: #D4C76A;
+    font-family: 'Lilita One', cursive;
+}
+
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/anime/ani-12/ani1162.ani), url(http://cur.cursors-4u.net/anime/ani-12/ani1162.gif), auto !important;} /* End http://www.cursors-4u.com */
